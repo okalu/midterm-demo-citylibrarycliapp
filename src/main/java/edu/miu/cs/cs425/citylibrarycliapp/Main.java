@@ -11,7 +11,8 @@ public class Main {
         var publishers = List.of(
                 new Publisher(101, "McGraw-Hill", "sales@mcgraw.com", null),
                 new Publisher(102, "Apress", "sales@apress.com", "(123) 456-7890"),
-        new Publisher(103, "Penguin-RandomHouse", null, null)
+                new Publisher(103, "Penguin-RandomHouse", null, null),
+                new Publisher(104, "Addison-Wesley", null, null)
         );
         publishers.forEach(System.out::println);
     }
